@@ -11,10 +11,13 @@ Binaries for windows & linux x64 are in the bin folder
 Just use Visual Studio
 
 ## Compile on Linux
-g++ CandySimplyFi.cpp -o simplyfi
+`g++ CandySimplyFi.cpp -o simplyfi`
+
+## Compile on MacOS
+`g++ -std=c++11 CandySimplyFi.cpp -o simplyfi`
 
 ## Usage
 
-Usage to retreive key: ./simplyfi \<ip\> getkey
+Usage to retreive key: `./simplyfi <ip> getkey`
   
-Usage to get data    : ./simplyfi \<ip\> \<key\> \<method: config, getStatistics, read\>
+Usage to get data    : `./simplyfi <ip> <key> <method: config, getStatistics, read>`
